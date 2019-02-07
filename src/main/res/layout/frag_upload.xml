@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rahulpc.audiofirelogin.original1">
+
+
+    <SeekBar
+        android:id="@+id/seek"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabsend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sendicon"
+        android:layout_marginBottom="97dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imagerepeat"
+        android:layout_alignStart="@+id/imagerepeat" />
+
+    
+    <ImageView
+        android:id="@+id/imageupload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/uploadsnip"
+        android:layout_marginBottom="49dp"
+        android:layout_above="@+id/songname"
+        android:layout_alignLeft="@+id/myplay"
+        android:layout_alignStart="@+id/myplay"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="39dp" />
+
+    <TextView
+        android:id="@+id/songname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/myplay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent" />
+
+    <ImageView
+        android:id="@+id/imagerecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/recordsnip"
+        android:layout_alignTop="@+id/imageupload"
+        android:layout_toLeftOf="@+id/fabsend"
+        android:layout_toStartOf="@+id/fabsend" />
+  <!--  <Button
+        android:id="@+id/btnrecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="record"
+        android:layout_alignTop="@+id/imageupload"
+        android:layout_alignRight="@+id/text"
+        android:layout_alignEnd="@+id/text" />  -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/playsnip"
+        android:id="@+id/myplay"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/seek"
+        android:layout_toStartOf="@+id/seek"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/repeatsnip"
+        android:id="@+id/imagerepeat"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/seek"
+        android:layout_toEndOf="@+id/seek"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pausesnip"
+        android:id="@+id/mypause"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/seek"
+        android:layout_toStartOf="@+id/seek"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:hint="write someting about it !!"
+        android:textColorHint="@android:color/background_dark"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/seek"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

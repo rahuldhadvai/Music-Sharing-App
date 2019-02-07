@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AudioFireLogin</string>
+    <string name="by_signing_up_you_agree_to_the_terms_of_use_privacy_policy"><![CDATA[By signing up, you agree to the Terms of Use &]]></string>
+    <string name="privacy_policy">Privacy Policy.</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_original">original</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_original1">original1</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sd">here list of all the downloaded
+        songs will be displayed    You can play them and have fun !!</string>
+</resources>
